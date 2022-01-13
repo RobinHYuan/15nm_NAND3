@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1637052239 1637052245
+lvs_ExtOutFile RUNDIR /ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402
+lvs_ExtOutFile RULES_FILE /ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {1 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402/NAND3.sp
+lvs_ExtOutFile EXTRACTION_REPORT NAND3.lvs.report.ext

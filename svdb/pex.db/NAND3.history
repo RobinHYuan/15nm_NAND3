@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Nov 15 22:58:55 2021 " "v2018.1_36.27" "-xrc -pdb -rcc -turbo 1 /ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402/_calibrePEX.rul_"
+"Mon Nov 15 22:59:34 2021 " "v2018.1_36.27" "-xrc -fmt -all /ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402/_calibrePEX.rul_"

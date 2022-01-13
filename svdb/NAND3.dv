@@ -1,0 +1,46 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/NAND3.dv
+dv_start unmatched                                
+dv_cell {NAND3} {NAND3} unmatched
+dv_obj_count -transformed_nets {5 8} -transformed_inst {4 1} -transformed_port {5 6}
+dv_discrep 1 {Incorrect Nets} -inst_count { 0 2}
+dv_discrep_line {** missing net **                                         } -snet {VOUT} {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 0 0}
+dv_discrep_line {** missing net **                                         } -snet {net3} {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets} -inst_count { 0 0}
+dv_discrep_line {** missing net **                                         } -snet {net6} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VOUT} { on net: } -snet {VOUT} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Instances}
+dv_discrep_line {} -ldev {M1} {} -lloc {(1.079,1.028)} {  MN(NFET)                                 ** missing instance **}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Instances}
+dv_discrep_line {} -ldev {M4} {} -lloc {(1.015,1.028)} {  MN(NFET)                                 ** missing instance **}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Instances}
+dv_discrep_line {} -ldev {M5} {} -lloc {(1.143,1.028)} {  MN(NFET)                                 ** missing instance **}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Instances}
+dv_discrep_line {(SMN3)                                                    ** missing gate **}
+dv_discrep_line {}
+dv_discrep_line {Transistors:}
+dv_discrep_line {  } -ldev {M2} {} -lloc {(1.015,0.235)} {  MN(NFET)}
+dv_discrep_line {  } -ldev {M0} {} -lloc {(1.079,0.235)} {  MN(NFET)}
+dv_discrep_line {  } -ldev {M3} {} -lloc {(1.143,0.235)} {  MN(NFET)}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Instances}
+dv_discrep_line {** missing gate **                                        (NAND3)}
+dv_discrep_line {}
+dv_discrep_line {                                                          Transistors:}
+dv_discrep_line {                                                            } -sdev {MM2} {  MN(NFET)}
+dv_discrep_line {                                                            } -sdev {MM1} {  MN(NFET)}
+dv_discrep_line {                                                            } -sdev {MM0} {  MN(NFET)}
+dv_discrep_line {                                                            } -sdev {MM5} {  MP(PFET)}
+dv_discrep_line {                                                            } -sdev {MM4} {  MP(PFET)}
+dv_discrep_line {                                                            } -sdev {MM3} {  MP(PFET)}
+dv_discrep_line {}
+dv_end
