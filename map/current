@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NAND3"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402"
+ )
+( model
+( "ELEC402_NAND3/NAND3/schematic" "NAND3" )
+ )
+( "NAND3" "ihnl/cds0/map" )
+ )
