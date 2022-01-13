@@ -34,7 +34,7 @@ Note that the inputslew rate is always 10ps and there us a 10fF load capacitacne
 <p float="left">
 <img src="https://user-images.githubusercontent.com/68177491/149276890-7777e145-596b-4ed7-9e3b-dddb531241e6.png" width="300" />
 <img src="https://user-images.githubusercontent.com/68177491/149277040-510d4e9f-bd0f-4998-b2df-9dae9aead04a.png" width="300" />
-<img src="https://user-images.githubusercontent.com/68177491/149277278-4ccb7393-b973-4aa2-9110-cb6db00c8516.png" width="236" />
+<img src="https://user-images.githubusercontent.com/68177491/149277278-4ccb7393-b973-4aa2-9110-cb6db00c8516.png" width="300" />
 </p>
 Figures from left to right are:Worst 𝜏<sub>HL</sub> Delay, Worst  𝜏<sub>LH</sub> Delay and Worst  Delay Skew |𝜏<sub>LH</sub>-𝜏<sub>HL</sub>|
 
