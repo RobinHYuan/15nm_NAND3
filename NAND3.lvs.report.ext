@@ -1,0 +1,30 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         NAND3.lvs.report.ext
+LAYOUT NAME:              NAND3.calibre.db ('NAND3')
+CREATION TIME:            Tue Nov 16 00:44:00 2021
+CURRENT DIRECTORY:        /ubc/ece/home/ugrads/r/roobin/Cadence_88011879/cds/NAND3_ELEC402
+USER NAME:                roobin
+CALIBRE VERSION:          v2018.1_36.27    Tue Apr 3 12:54:13 PDT 2018
+
+
+
+Extraction Errors and Warnings for cell "NAND3"
+-----------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  4
+          (1)  name  "VDD"  at location  (1.107,1.12)  on layer  15 "M1A"
+          (2)  name  "VOUT"  at location  (1.15,0.984)  on layer  15 "M1A"
+          The name "VDD" was assigned to the net.
+
+

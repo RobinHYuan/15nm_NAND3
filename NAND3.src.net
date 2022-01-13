@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ELEC402_NAND3
+* Top Cell Name: NAND3
+* View Name:     schematic
+* Netlisted on:  Nov 16 00:43:58 2021
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ELEC402_NAND3
+* Cell Name:    NAND3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND3 A B C VDD VOUT VSS
+*.PININFO A:I B:I C:I VOUT:O VDD:B VSS:B
+MM1 net5 B net4 net3 NFET m=4
+MM0 VOUT A net5 net3 NFET m=4
+MM2 net4 C VSS net3 NFET m=4
+MM5 VOUT C VDD net6 PFET m=2
+MM4 VOUT B VDD net6 PFET m=2
+MM3 VOUT A VDD net6 PFET m=2
+.ENDS
+

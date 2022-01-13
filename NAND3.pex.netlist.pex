@@ -1,0 +1,28 @@
+* File: NAND3.pex.netlist.pex
+* Created: Mon Nov 15 22:59:37 2021
+* Program "Calibre xRC"
+* Version "v2018.1_36.27"
+* Nominal Temperature: 25C
+* Circuit Temperature: 25C
+* 
+.subckt PM_NAND3_VSS 1 2 VSS
+c4 2 VSS 1.38072e-19
+c5 1 VSS 0.742231f
+r6 1 2 8.6
+.ends
+
+.subckt PM_NAND3_VDD 1 2 3 VSS
+c6 3 VSS 0.192272f
+c7 2 VSS 0.201079f
+r8 2 3 0.6
+r9 1 3 0.8
+.ends
+
+.subckt PM_NAND3_VOUT 1 2 3 4 VSS
+c6 4 VSS 0.436328f
+c7 1 VSS 0.741989f
+r8 3 4 0.2
+r9 2 4 0.8
+r10 1 4 9
+.ends
+

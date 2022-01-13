@@ -1,0 +1,13 @@
+* File: Inverter.pex.netlist.pex
+* Created: Sun Nov 14 01:09:31 2021
+* Program "Calibre xRC"
+* Version "v2018.1_36.27"
+* Nominal Temperature: 25C
+* Circuit Temperature: 25C
+* 
+.subckt PM_INVERTER_OUT 1 2 3 VSS
+c3 3 VSS 0.0450598f
+r4 2 3 0.0241379
+r5 1 3 0.0241379
+.ends
+

@@ -1,0 +1,2 @@
+DRC ICSTATION YES
+INCLUDE "/CMC/kits/ncsu_pdk/FreePDK15/calibre/calibreLVS.rul"
